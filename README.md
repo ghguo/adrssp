@@ -11,7 +11,6 @@ A bid adpater sends RTB/HB requests with IAB Categories and keywords extracted f
 
 With Content Target Plugin, a DSP advertiser can specify which IAB Categories or keywords an ad is targeted to. When a request with the IAB Categories and keywords is received, the ad is matched and delivered.
 
-
 Clone the code. Run
 
 docker build -t ssp .

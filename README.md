@@ -13,8 +13,10 @@ With Content Target Plugin, a DSP advertiser can specify which IAB Categories or
 
 
 Clone the code. Run
+
 docker build -t ssp .
 
 Then, run
+
 docker run --name adrssp -d -v $PWD/app:/app -p 80:80 ssp app.py
   
